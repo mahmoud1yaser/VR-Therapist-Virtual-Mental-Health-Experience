@@ -11,7 +11,7 @@ TOKEN_ID = data['TOKEN_ID']
 ACCESS_KEY = data['ACCESS_KEY']
 SECRET_ACCESS_KEY = data['SECRET_ACCESS_KEY']
 
-CHATGPT_ID = "chinchilla"
+CHATGPT_ID = "gpt3_5"
 #{'capybara': 'Sage', 'beaver': 'GPT-4', 'a2_2': 'Claude+', 'a2': 'Claude', 'chinchilla': 'ChatGPT', 'nutria': 'Dragonfly'}
 
 
@@ -67,34 +67,13 @@ def process():
     2- Extract the sentiment of the patient's thoughts enclosed within ```<{patient_message}>``` and make your response supports the patient with respect to its sentiment.
     3- Make your response up to the point.
     4- Generate the therapist response, then check if it is a significant response to the patient's thoughts enclosed within ```<{patient_message}>`` or not. if not generate a new significant response. and apply this point until you get a significant response.
-    5- Avoid repeating the patient's message. Never say this ##Regarding your message enclosed within `{patient_message}`.
+    5- Avoid repeating the patient's message. Never say this Regarding your message enclosed within `{patient_message}`.
     6- Start by listening to the patient. Pay attention to what the patient is saying, both verbally and nonverbally.
     7- Use open-ended questions to encourage the patient to talk. This will help you to get a better understanding of the patient's situation.
     8- Acknowledge the patient's feelings. This will help the patient to feel heard and understood.
     9- Offer support and encouragement. Let the patient know that you are there to help them.
     10- Be patient. Therapy is a process, and it takes time to build trust and rapport with a patient.
     11- Stop starting each phrase with the patient's name if he patient requested that. 
-    11- follow this pattern as example:
-    ```
-    messages = [
-        [
-            "role": "therapist",
-            "content": "Hi, I'm Josh, your therapist. How are you today?"
-        ],
-        [
-            "role": "patient",
-            "content": "I'm not doing well. I've been feeling really anxious and depressed lately."
-        ],
-        [
-            "role": "therapist",
-            "content": "I'm sorry to hear that. Can you tell me more about what's been going on?"
-        ],
-        [
-            "role": "patient",
-            "content": "Well, I've been having a lot of trouble at work. I'm not sure if I'm cut out for the job. I'm also having trouble in my personal life. My relationship with my partner is strained, and I'm feeling really isolated."
-        ],
-    ]
-    ```
     12- Clean text to make it readable as remove spaces and new lines.
     <<<Only return the latest response of therapist content.>>>
     """
@@ -102,6 +81,8 @@ def process():
     therapist_response = generate_therapist_response(client, prompt_message, TOKEN_ID, CHATGPT_ID)
     therapist_response = therapist_response.replace("Therapist: ", "")
     chat_history_list.append(therapist_response)
+
+    print(therapist_response)
 
     # To avoid prompt overload.
     if len(chat_history_list) > 5:
@@ -112,4 +93,4 @@ def process():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)

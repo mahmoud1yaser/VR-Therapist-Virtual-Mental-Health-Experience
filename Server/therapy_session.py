@@ -1,10 +1,10 @@
 import speech_recognition as sr
-import poe
+from poe_api_wrapper import PoeApi
 import boto3
 
 
 def initialize_client(token_id):
-    client = poe.Client(token_id)
+    client = PoeApi(token_id)
     return client
 
 
@@ -31,6 +31,7 @@ def generate_therapist_response(client, prompt_message, TOKEN_ID, CHATGPT_ID):
         for chunk in client.send_message(CHATGPT_ID, prompt_message):
             pass
         therapist_response = chunk["text"]
+
     return therapist_response
 
 
