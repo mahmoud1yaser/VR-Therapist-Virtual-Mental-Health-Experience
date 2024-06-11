@@ -51,7 +51,12 @@ The project consists of two main components:
    pip install -r req.txt
    ```
 
-3. Run the Flask server:
+3. Create a config.json file based on the provided example in ```Server/config.json.example```.
+    - You will need to obtain the following keys:
+        - POE Session Key (Note: The <a src="https://github.com/snowby666/poe-api-wrapper"> POE API </a> service is currently under maintenance and may not be functional at this time.)
+        - AWS Polly ACCESS-Key and SECRET-ACCESS-Key
+
+4. Run the Flask server:
    ```bash
    python app.py
    ```
