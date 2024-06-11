@@ -91,7 +91,7 @@ The project consists of two main components:
 - **System Diagram:**
   ![System Diagram](assets/images/system_digram.png)
   
-- **Side and Top View of the Environment:**
+- **Top and Side View of the Environment:**
   ![Environment View](assets/images/top_env.png)
   ![Environment View](assets/images/side_env.png)
   
