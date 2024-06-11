@@ -2,7 +2,7 @@
 
 ## Overview
 
-**VR-Therapist-Virtual-Mental-Health-Experience (VR-TVMHE)** is a cutting-edge application integrating Virtual Reality (VR) technology and Large Language Models (LLMs) to simulate therapeutic interactions for mental health rehabilitation. This project provides a virtual therapist environment where users can experience immersive and interactive therapy sessions.
+**VR-Therapist-Virtual-Mental-Health-Experience (VR-Therapist)** is a cutting-edge application integrating Virtual Reality (VR) technology and Large Language Models (LLMs) to simulate therapeutic interactions for mental health rehabilitation. This project provides a virtual therapist environment where users can experience immersive and interactive therapy sessions.
 
 ## Features
 
