@@ -96,14 +96,14 @@ The project consists of two main components:
   ![Environment View](assets\images\side_env.png)
   
 - **Isometric View of the Environment:**
-  ![Environment View](assets\images\env_3d_2.png)
-  ![Environment View](assets\images\env-3d1.png)
+  ![Environment View](assets\images\env_3d2.png)
+  ![Environment View](assets\images\env_3d1.png)
 
 - **Patient Eye Tracking:**
   ![Patient Eye Tracking](assets\images\eye_tracker.png)
   
 - **Therapist Lip Sync:**
-  ![Therapist Lip Sync](assets\images\lip-sync.png)
+  ![Therapist Lip Sync](assets\images\lip_sync.png)
 
 ## Resources
 
