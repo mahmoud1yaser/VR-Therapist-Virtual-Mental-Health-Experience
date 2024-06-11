@@ -89,26 +89,26 @@ The project consists of two main components:
 ## Figures
 
 - **System Diagram:**
-  ![System Diagram](assets\images\system_digram.png)
+  ![System Diagram](assets/images/system_digram.png)
   
 - **Side and Top View of the Environment:**
-  ![Environment View](assets\images\top_env.png)
-  ![Environment View](assets\images\side_env.png)
+  ![Environment View](assets/images/top_env.png)
+  ![Environment View](assets/images/side_env.png)
   
 - **Isometric View of the Environment:**
-  ![Environment View](assets\images\env_3d2.png)
-  ![Environment View](assets\images\env_3d1.png)
+  ![Environment View](assets/images/env_3d2.png)
+  ![Environment View](assets/images/env_3d1.png)
 
 - **Patient Eye Tracking:**
-  ![Patient Eye Tracking](assets\images\eye_tracker.png)
+  ![Patient Eye Tracking](assets/images/eye_tracker.png)
   
 - **Therapist Lip Sync:**
-  ![Therapist Lip Sync](assets\images\lip_sync.png)
+  ![Therapist Lip Sync](assets/images/lip_sync.png)
 
 ## Resources
 
 - **[Research Paper (PDF)](assets/pdf/Project_Paper.pdf)**
-- **[Project Presentation (PDF)](assets\pdf\Project_Slides.pdf)**
+- **[Project Presentation (PDF)](assets/pdf/Project_Slides.pdf)**
 
 ## Demo
 We have prepared a demo video to showcase the features and functionality of the VR-Therapist-Virtual-Mental-Health-Experience. The video includes a walkthrough of the system, including setting up the environment, starting a therapy session, and interacting with the virtual therapist.
