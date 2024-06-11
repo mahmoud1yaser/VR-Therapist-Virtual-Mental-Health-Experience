@@ -112,7 +112,10 @@ The project consists of two main components:
 
 ## Demo
 We have prepared a demo video to showcase the features and functionality of the VR-Therapist-Virtual-Mental-Health-Experience. The video includes a walkthrough of the system, including setting up the environment, starting a therapy session, and interacting with the virtual therapist.
+
+<html>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/x633kQ59pfw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</html>
 
 ## Future Work
 - **LLM Fine-Tuning:** Enhance LLM performance for more accurate therapeutic responses.
