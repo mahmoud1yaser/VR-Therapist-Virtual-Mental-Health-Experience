@@ -107,8 +107,8 @@ The project consists of two main components:
 
 ## Resources
 
-- **[Research Paper (PDF)](assets/pdf/Project_Paper.pdf)**
-- **[Project Presentation (PDF)](assets/pdf/Project_Slides.pdf)**
+- **[Research Paper (PDF)](assets/pdf)**
+- **[Project Presentation (PDF)](assets/pdf)**
 
 ## Demo
 We have prepared a demo video to showcase the features and functionality of the VR-Therapist-Virtual-Mental-Health-Experience. The video includes a walkthrough of the system, including setting up the environment, starting a therapy session, and interacting with the virtual therapist.
